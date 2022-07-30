@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net4.7.2</TargetFramework>
+		<LangVersion>Latest</LangVersion>
+		<AssemblyName Condition="'$(Configuration)'=='Debug'">CustomTriggerThreshold-debug</AssemblyName>
+		<AssemblyName Condition="'$(Configuration)'=='Release'">CustomTriggerThreshold</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>..\Libs\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="MelonLoader">
+			<HintPath>..\Libs\MelonLoader.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
