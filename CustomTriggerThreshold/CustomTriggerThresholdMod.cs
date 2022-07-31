@@ -8,14 +8,14 @@ using ABI_RC.Core.Savior;
 
 using CustomTriggerThreshold;
 
-[assembly: MelonInfo(typeof(CustomTriggerThresholdMod), "CustomTriggerThreshold", "1.0.0", "DragonPlayer", "https://github.com/DragonPlayerX/CustomTriggerThreshold")]
+[assembly: MelonInfo(typeof(CustomTriggerThresholdMod), "CustomTriggerThreshold", "1.1.0", "DragonPlayer", "https://github.com/DragonPlayerX/CustomTriggerThreshold")]
 [assembly: MelonGame("Alpha Blend Interactive", "ChilloutVR")]
 
 namespace CustomTriggerThreshold
 {
     public class CustomTriggerThresholdMod : MelonMod
     {
-        public static readonly string Version = "1.0.0";
+        public static readonly string Version = "1.1.0";
 
         public static CustomTriggerThresholdMod Instance;
         public static MelonLogger.Instance Logger => Instance.LoggerInstance;
