@@ -6,7 +6,7 @@
 
 ## Description
 
-Very simple mod to adjust the threshold for the controller trigger button as well as the snap turning threshold. You can just change the values located at **"ChilloutVR/UserData/MelonPreferences.cfg"** (also works while in game).
+Simple mod to adjust the threshold for the controller trigger and grip button as well as the snap turning threshold. You can just change the values located at **"ChilloutVR/UserData/MelonPreferences.cfg"** (also works while in game).
 
 ## Disclaimer
 
